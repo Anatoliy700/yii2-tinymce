@@ -16,5 +16,10 @@
             "email": "anatoliy.rus@gmail.com"
         }
     ],
-    "minimum-stability": "stable"
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "anatoliy700\\tinymce\\": "src"
+        }
+    }
 }
